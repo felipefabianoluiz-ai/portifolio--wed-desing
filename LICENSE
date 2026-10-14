@@ -19,3 +19,48 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrevista com Especialista</title>
+</head>
+<body>
+
+    <header>
+        <h1>Portal de Notícias - Tecnologia</h1>
+        <nav>
+            <ul>
+                <li><a href="blog.html">Home/Blog</a></li>
+                <li><a href="meioambiente.html">Meio Ambiente</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Conteúdo principal da entrevista -->
+        <article>
+            <h2>O Futuro da Inteligência Artificial: Entrevista com Dr. Silva</h2>
+            <p><em>Publicado em: 14 de Outubro de 2026</em></p>
+            
+            <h3>Pergunta: Como a IA vai impactar o mercado de trabalho nos próximos anos?</h3>
+            <p><strong>Dr. Silva:</strong> A IA não vai necessariamente substituir os humanos, mas os profissionais que usam IA vão substituir os que não usam. Ela automatiza tarefas repetitivas, liberando tempo para a criatividade.</p>
+
+            <h3>Pergunta: O HTML semântico ainda é importante com o avanço das novas tecnologias?</h3>
+            <p><strong>Dr. Silva:</strong> Com certeza. A semântica ajuda os robôs de busca e as próprias ferramentas de IA a entenderem a estrutura real do seu site.</p>
+        </article>
+
+        <!-- Conteúdo lateral e relacionado (Aparte) -->
+        <aside>
+            <h3>Sobre o Entrevistado</h3>
+            <p>O Dr. Silva é pesquisador sênior em Ciências da Computação, com mais de 15 anos de experiência em desenvolvimento de sistemas inteligentes e acessibilidade web.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por [Seu Nome] para o WebDesign-Portfólio</p>
+    </footer>
+
+</body>
+</html>
