@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Visuall - Módulo 05</title>
+    <!-- Vinculando o arquivo CSS externo -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>Explorando o Universo do CSS</h1>
+        <p>Construindo a identidade visual e dominando o Box Model</p>
+    </header>
+
+    <main>
+        <!-- Seção sobre a Paleta de Cores -->
+        <section class="card">
+            <h2>Minha Paleta de Cores</h2>
+            <p>Para este projeto, escolhi uma combinação harmônica gerada em ferramentas de design:</p>
+            <ul>
+                <li><strong>Cor Principal:</strong> Azul Escuro (Confiança e Estrutura)</li>
+                <li><strong>Cor Secundária:</strong> Azul Claro (Suavidade e Fundo)</li>
+                <li><strong>Cor de Destaque:</strong> Laranja Vibrant (Botões e Links)</li>
+            </ul>
+        </section>
+
+        <!-- Seção demonstrando o Box Model -->
+        <section class="card box-model-demo">
+            <h2>Demonstração do Box Model</h2>
+            <p>Este bloco utiliza conceitos de <strong>Padding</strong> (espaçamento interno), <strong>Borda</strong> (contorno) e <strong>Margin</strong> (espaçamento externo) de forma visível e organizada.</p>
+        </section>
+
+        <!-- Seção do Botão Interativo -->
+        <section class="card center">
+            <h2>Elemento Interativo</h2>
+            <p>Passe o mouse por cima do botão abaixo para ver o efeito <em>hover</em> em ação!</p>
+            <button class="btn-interativo">Clique Aqui</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido com CSS por [Seu Nome]</p>
+    </footer>
+
+</body>
+</html>

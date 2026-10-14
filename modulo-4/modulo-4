@@ -1,0 +1,78 @@
+Módulo_06/
+  ├── index.html
+  └── css/
+      ├── style.css
+      └── responsive.css
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Integrador - Módulo 06</title>
+    <!-- Conectando os arquivos CSS na ordem correta -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- Header com Flexbox -->
+    <header class="main-header">
+        <div class="logo">TechPortfolio</div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#layout-grid">Grid</a></li>
+                <li><a href="#layout-flex">Flexbox</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Seção Principal de Destaque -->
+        <section class="hero-section">
+            <h1>Layouts Modernos e Responsivos</h1>
+            <p>Projeto integrador aplicando conceitos avançados de CSS Grid, Flexbox e Media Queries.</p>
+            <button class="btn-action">Explorar Projetos</button>
+        </section>
+
+        <!-- Galeria de Conteúdo com CSS Grid -->
+        <section id="layout-grid" class="grid-section">
+            <h2>Galeria Estruturada com Grid</h2>
+            <div class="grid-container">
+                <article class="grid-item" id="card-destaque">
+                    <h3>Destaque (ID)</h3>
+                    <p>Este card utiliza um ID exclusivo para estilização diferenciada no layout.</p>
+                </article>
+                <article class="grid-item">
+                    <h3>Card 2</h3>
+                    <p>Aplicando conceitos rigorosos do Box Model (padding, border e margin).</p>
+                </article>
+                <article class="grid-item">
+                    <h3>Card 3</h3>
+                    <p>Alinhamento de elementos e distribuição proporcional de espaço.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Componentes com Flexbox -->
+        <section id="layout-flex" class="flex-section">
+            <h2>Componentes com Flexbox</h2>
+            <div class="flex-container">
+                <div class="flex-card">
+                    <h4>Agilidade</h4>
+                    <p>Flexibilidade total nos eixos.</p>
+                </div>
+                <div class="flex-card">
+                    <h4>Alinhamento</h4>
+                    <p>Centralização simples e prática.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato" class="main-footer">
+        <p>&copy; 2026 - Desenvolvido por [Seu Nome] | Módulo 06</p>
+    </footer>
+
+</body>
+</html>

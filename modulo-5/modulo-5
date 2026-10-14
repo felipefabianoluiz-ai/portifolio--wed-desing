@@ -1,0 +1,150 @@
+Módulo_07/
+  ├── index.html
+  ├── estilo.css
+  └── script.js
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interatividade com JavaScript - Módulo 07</title>
+    <link rel="stylesheet" href="estilo.css">
+    <!-- O atributo defer garante que o JS execute após a renderização do HTML -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Introdução ao JavaScript</h1>
+        <p>Tornando páginas estáticas em experiências dinâmicas</p>
+    </header>
+
+    <main class="container">
+        
+        <!-- Atividade 1: Alteração de Texto -->
+        <section class="card">
+            <h2>1. Manipulação de Texto</h2>
+            <p id="texto-dinamico">Este é o texto original da página. Clique no botão abaixo para mudá-lo!</p>
+            <button id="btn-mudar-texto" class="btn">Mudar Texto</button>
+        </section>
+
+        <!-- Atividade 2: Alteração de Estilo (Cor de Fundo) -->
+        <section id="card-cor" class="card">
+            <h2>2. Alteração de Estilo Dinâmico</h2>
+            <p>O JavaScript pode modificar classes e propriedades CSS em tempo real.</p>
+            <button id="btn-mudar-cor" class="btn">Alternar Cor de Fundo</button>
+        </section>
+
+        <!-- Atividade 3: Contador Interativo (Estado) -->
+        <section class="card center">
+            <h2>3. Contador de Cliques</h2>
+            <p class="contador-texto">Cliques computados: <span id="contador-numero">0</span></p>
+            <button id="btn-contador" class="btn btn-sucesso">Incrementar +1</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido com JavaScript por [Seu Nome]</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+</body>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #4f46e5;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.4s ease;
+}
+
+/* Classe especial que o JavaScript vai adicionar dinamicamente */
+.card-modo-destaque {
+    background-color: #fef08a !important; /* Amarelo claro */
+    border-left: 5px solid #ca8a04;
+}
+
+.center {
+    text-align: center;
+}
+
+.contador-texto {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#contador-numero {
+    font-weight: bold;
+    color: #4f46e5;
+}
+
+/* Botões */
+.btn {
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+    background-color: #4338ca;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn-sucesso {
+    background-color: #10b981;
+}
+
+.btn-sucesso:hover {
+    background-color: #059669;
+}
+
+footer {
+    text-align: center;
+    color: #6b7280;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+<body>
